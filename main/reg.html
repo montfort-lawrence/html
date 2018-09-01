@@ -1,0 +1,65 @@
+<!dOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="m.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="C:\Users\infoteach\Desktop\main\b.js"></script>
+	
+	<Base href="C:\Users\infoteach\Desktop\main\">
+	<title>Login</title>
+</head>
+<body style="background-color:#eee;">
+	<header>
+		<nav id="dnav">
+			<label id="logo">PICS STUDIO</label>
+			<div style="margin-top:-25px;margin-left:620px;">
+			<input type="text" name="search" id="srh">
+			<button type="button">search</button> 
+			</div>
+			<hr style="margin-top:25px;"><br>
+			<div class="btn-group" style="width:100%;">
+				<b style="margin-left:1422px;margin-top:0px;font-family:arial;">100, ECR Road, Lawspet, Pondicherry.</b><br><br>
+				<b style="margin-left:522px;font-family:arial;">Phone: 0413-220 2201</b>
+				<a href="log.html"><button class="btn-group" style="width:10%;">Login</button></a>
+				<a href="reg.html"><button class="btn-group" style="width:10%;">Registration</button></a>
+				<a href="Home.html"><button class="btn-group" style="width:10%;">Home</button></a>
+				<a href="about.html"><button class="btn-group" style="width:10%;">About Us</button></a>
+				<a href="contact.html"><button class="btn-group" style="width:10%;">Contact Us</button></a>
+			</div>
+		</nav>
+	</header>
+	<hr>
+	<div style="background:hotpink;height:700px;width:700px;margin-left:600px;margin-top:50px;">
+	<label style="font-size:40px;font-family:TimesNewRoman;margin-left:250px;">User Login</label>
+	<hr>
+	<form name="reg" action="a.js">
+	<label >Username</label>
+	<input type="text" style="margin-left:80px;padding:10px;" id="uname" name="uname" required>
+	<br><br>
+	<label>Password</label>
+	<input type="password" style="margin-left:85px;padding:10px;" id="pass" name="pass" required><br><br>
+	<label >Re-enter Pass</label>
+	<input type="password" style="margin-left:37px;padding:10px;" id="repass" name="repass" required><br><br>
+	<label >Email</label>
+	<input type="email" style="margin-left:132px;padding:10px;" id="email" name="email" required><br><br>
+	<label>Male</label>
+	<input type="radio" style="margin-left:85px;padding:10px;" id="gender" value="male" name="gender" required>
+	<label >Female</label>
+	<input type="radio" style="margin-left:85px;padding:10px;" id="gender"  value="female" name="gender" required><br><br>
+	<label >Mobile</label>
+	<input type="text" style="margin-left:122px;padding:10px;" id="mob" name="mobile" required><br><br>
+	<input type="checkbox" id="check" style="margin-left:122px;padding:10px;">I accept the terms and conditions
+	<br><br>
+	<input type="button" id="btn" value="submit" onclick=regi()>
+	<br>	
+	</form>
+	</div>
+	<footer style="margin-left:200px;">
+	<a href="https://www.facebook.com">facebook</a>
+	<a href="https://www.youtube.com">youtube</a>
+	<a href="https://www.twitter.com">twitter</a>
+	<a href="https://www.gmail.com">gmail</a>
+	</footer>
+</body>
+</html>
